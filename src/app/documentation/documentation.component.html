@@ -1,1 +1,52 @@
-<p>documentation works!</p>
+<h1>Features</h1>
+<h2>Encryption</h2>
+
+<div class="Package-information">
+  <ul>
+    <li>
+      Functionality: Encrypts data using a public key and a specific data
+      pattern.
+    </li>
+    <li>
+      Purpose: Ensures that the data can only be decrypted by the corresponding
+      private key.
+    </li>
+  </ul>
+
+  <h2>Usage</h2>
+  <p>Use the encrypt function to encrypt your data with a public key.</p>
+  <h3>Typescript</h3>
+  <p>
+    {{ ex1 }} <br />
+    Encryption.encrypt(publicKey: string, data: any): Object;
+  </p>
+
+  <h3>Javascript</h3>
+  <p>
+    const Encryption = require("authanticator/Encryption");<br />
+    new Encryption().encrypt(publicKey, data);
+  </p>
+</div>
+
+<h2>Decryption</h2>
+<div class="Package-information">
+  <li>
+    Functionality: Decrypts data using a public key and a specific data pattern.
+  </li>
+  <li>
+    Purpose: Allows the retrieval of the original data that was encrypted with
+    the corresponding public key.
+  </li>
+  <h2>Usage</h2>
+  <p>Use the decrypt function to decrypt your data with a public key.</p>
+  <h3>Typescript</h3>
+  <p>
+    {{ ex1 }} <br />
+    Encryption.decrypt(publicKey: string, data: any): Object;
+  </p>
+  <h3>Javascript</h3>
+  <p>
+    const Encryption = require("authanticator/src/Encryption");<br />
+    new Encryption().decrypt(publicKey, data);
+  </p>
+</div>
