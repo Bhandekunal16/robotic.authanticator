@@ -15,4 +15,5 @@ export class DocumentationComponent {
   public ex5: string = `import { ScientificNotation } from "authanticator/main";`;
 
   public Typescript: string = 'Typescript';
+  public Javascript: string = 'Javascript';
 }
