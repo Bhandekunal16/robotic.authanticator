@@ -12,4 +12,5 @@ export class DocumentationComponent {
   public ex2 = `import { binary } from 'authanticator/main';`;
   public ex3 = `import { hexadecimal } from "authanticator/main";`;
   public ex4 = `import { Octal_decimal } from "authanticator/main";`;
+  public ex5 = `import { ScientificNotation } from "authanticator/main";`;
 }
