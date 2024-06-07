@@ -30,6 +30,11 @@ export class AuthComponent {
         icon: 'pi pi-envelope',
         command: () => this.contact(),
       },
+      {
+        label: 'Documentation',
+        icon: 'pi pi-envelope',
+        command: () => this.documentation(),
+      }
     ];
   }
 
@@ -43,5 +48,9 @@ export class AuthComponent {
 
   about(): void {
     this.router.navigate(['/about']);
+  }
+
+  documentation(): void {
+    this.router.navigate(['/documentation']);
   }
 }
