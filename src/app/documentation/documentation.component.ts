@@ -13,7 +13,6 @@ export class DocumentationComponent {
   public ex3: string = `import { hexadecimal } from "authanticator/main";`;
   public ex4: string = `import { Octal_decimal } from "authanticator/main";`;
   public ex5: string = `import { ScientificNotation } from "authanticator/main";`;
-
   public Typescript: string = 'Typescript';
   public Javascript: string = 'Javascript';
 }
